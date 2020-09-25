@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MyfirstApp</string>
+    <string name="remember_this">Remember this?</string>
+    <string name="click_me">Click Me!</string>
+    <string name="help_inquiry">Help / Inquiry</string>
+    <string name="couch_potato_recipe">Couch potato recipe</string>
+    <string name="free_sites_to_learn_from_with_free_certificates">Free sites to learn from (with free certificates)</string>
+    <string name="fcc">FreeCodeCamp.org</string>
+    <string name="cisco">Cisco.org</string>
+    <string name="cybrary">Cybrary.org</string>
+    <string name="linkedin">Linkedin Learning</string>
+    <string name="coursera">Coursera Projects</string>
+    <string name="note_sites_may_take_some_time_to_load">Note : Make sure your device is connected to internet.\nSites may take some time to load. \nFor more information visit "help/inquiry"</string>
+    <string name="back_to_sites_list">Back to sites list</string>
+    <string name="euphoria">Euphoria</string>
+    <string name="chernobyl">Chernobyl</string>
+    <string name="the_purge">The Purge(Movies)</string>
+    <string name="break_bad">Breaking Bad</string>
+    <string name="f_fam">F is for Family</string>
+    <string name="final_space">Final Space</string>
+    <string name="disenchantment">DisEnchantment</string>
+    <string name="connect">Let\'s Connect ^_^ \n<a href="https://www.linkedin.com/in/ramease">My Linkedin</a> \nor email me (above)</string>
+    <string name="send">Send</string>
+    <string name="repeat">Repeat</string>
+    <string name="play_song">Play Song</string>
+    <string name="remember_this_song">Remember this song?</string>
+    <string name="yes">Yes</string>
+    <string name="maybe_try_listensing_to_this_song_n_hint_press_the_play_button_again">Maybe try listening to this song. \n (Hint: press the play button again)</string>
+    <string name="pause">Pause</string>
+    <string name="no">No</string>
+    <string name="do_you_like_remeber_the_songs">Do you like/remember the songs?</string>
+    <string name="no_matter_what_i_still_love_you">No matter what, I still Love You</string>
+
+    <string-array name="Shows">
+        <item>@string/euphoria</item>
+        <item>@string/chernobyl</item>
+        <item>@string/the_purge</item>
+        <item>@string/break_bad</item>
+        <item>@string/f_fam</item>
+        <item>@string/final_space</item>
+        <item>@string/disenchantment</item>
+    </string-array>
+
+    <string-array name="FreeSites">
+        <item>@string/fcc</item>
+        <item>@string/cisco</item>
+        <item>@string/cybrary</item>
+        <item>@string/coursera</item>
+        <item>@string/linkedin</item>
+    </string-array>
+</resources>

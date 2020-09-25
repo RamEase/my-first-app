@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4BFF0606"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/audioBut"
+        android:layout_width="187dp"
+        android:layout_height="166dp"
+        android:onClick="newAct"
+        android:text="@string/remember_this"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toEndOf="@+id/welcBut"
+        app:layout_constraintTop_toTopOf="@+id/welcBut"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/webListBut"
+        android:layout_width="187dp"
+        android:layout_height="166dp"
+        android:onClick="newAct"
+        android:text="@string/couch_potato_recipe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/welcBut"
+        app:layout_constraintTop_toBottomOf="@+id/welcBut"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/freeSitesBut"
+        android:layout_width="187dp"
+        android:layout_height="166dp"
+        android:onClick="newAct"
+        android:text="@string/free_sites_to_learn_from_with_free_certificates"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/webListBut"
+        app:layout_constraintTop_toBottomOf="@+id/audioBut"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/welcBut"
+        android:layout_width="187dp"
+        android:layout_height="166dp"
+        android:text="@string/click_me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/audioBut"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06999999" />
+
+    <Button
+        android:id="@+id/helpBut"
+        android:layout_width="366dp"
+        android:layout_height="56dp"
+        android:onClick="newAct"
+        android:text="@string/help_inquiry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/freeSitesBut"
+        app:layout_constraintStart_toStartOf="@+id/webListBut"
+        app:layout_constraintTop_toBottomOf="@+id/webListBut"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
